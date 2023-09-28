@@ -1,0 +1,11 @@
+test: test
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: https://9f270f61f6704b6187d16b02625ff71f.us-central1.gcp.cloud.es.io:9243
+      username: test_user
+      password: test_user
